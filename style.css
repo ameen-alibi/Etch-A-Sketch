@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Nosifer', cursive;
+    color: #314561;
+}
+
+.container {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbackground-color&psig=AOvVaw1C69nJ6gjVSQ01HBqXQmPR&ust=1686506261059000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCkzsajuf8CFQAAAAAdAAAAABAE');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    flex-basis: calc(100% / 16);
+    height: calc(100% / 16);
+    background-color: #ccc;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+}
