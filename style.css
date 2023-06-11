@@ -10,6 +10,10 @@ h1{
     font-weight: bold;
     font-family: 'Nosifer', cursive;
     color: #314561;
+    font-size: 54;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -19,6 +23,7 @@ h1{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    gap: 20px;
 }
 
 .grid {
@@ -29,9 +34,24 @@ h1{
 }
 
 .cell {
-    flex-basis: calc(100% / 16);
-    height: calc(100% / 16);
     background-color: #ccc;
     border: 0.5px solid black;
     box-sizing: border-box;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#createGridButton {
+    background-color: #314561;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
